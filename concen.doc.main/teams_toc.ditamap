@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Arbortext, Inc., 1988-2011, v.4002-->
+<!DOCTYPE map PUBLIC "-//IBM//DTD DITA IBM Map//EN"
+ "ibm-map.dtd">
+<?Pub Sty _display FontColor="red"?>
+<map id="teams" title="Our teams" xml:lang="en-us">
+<topicref href="topics/team.dita" navtitle="Working in teams">
+<topicref href="topics/ateamdev_id.dita" navtitle="Team development in Integration Designer">
+<topicref href="topics/teamviews.dita" navtitle="Perspectives and views for team development"/>
+<topicref href="topics/stagingmodules.dita" navtitle="Modules and staging modules"/>
+<topicref href="topics/team_with_mediations.dita" navtitle="Team development with mediations"/>
+</topicref>
+</topicref>
+</map>
+<?Pub *0000007009?>
