@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Arbortext, Inc., 1988-2011, v.4002-->
+<!DOCTYPE map PUBLIC "-//IBM//DTD DITA IBM Map//EN"
+ "ibm-map.dtd">
+<?Pub Sty _display FontColor="red"?>
+<map title="WebSphere Integration Developer test client" xml:lang="en-us">
+<topicref href="topics/ttest.dita" id="ttest" navtitle="Testing modules">
+<topicref href="topics/ctestovw.dita" id="ctestovw" locktitle="yes"
+navtitle="Unit testing">
+<!--Removing "family" from topicref-->
+<topicref href="topics/rtestui.dita" id="rtestui" locktitle="yes"
+navtitle="Integration test client">
+<topicref href="topics/revntspg.dita" id="revntspg" locktitle="yes"
+navtitle="Events page"></topicref>
+<topicref href="topics/rvaled.dita" id="rvaled" locktitle="yes"
+navtitle="Value and data pool editors"></topicref>
+<topicref href="topics/rcnfgspg.dita" id="rcnfgspg" locktitle="yes"
+navtitle="Configurations page"></topicref>
+<topicref href="topics/ricons.dita" id="ricons" locktitle="yes"
+navtitle="Icons and symbols"></topicref>
+<topicref href="topics/rtest_shortcuts.dita" id="rtest_shortcuts"
+locktitle="yes" navtitle="Keyboard shortcuts"></topicref>
+</topicref>
+<!--Removing "family" from topicref-->
+<topicref href="topics/tsetpref.dita" id="tsetpref" locktitle="yes"
+navtitle="Setting preferences">
+<topicref href="topics/tsavemod.dita" id="tsavemod" locktitle="yes"
+navtitle="Enabling modified resources to be saved automatically">
+</topicref>
+<topicref href="topics/tinclmod.dita" id="tinclmod" locktitle="yes"
+navtitle="Including other modules for testing that are referenced by integration solutions">
+</topicref>
+<topicref href="topics/tmodrepub.dita" id="tmodrepub" locktitle="yes"
+navtitle="Specifying automatic publishing before starting the test client">
+</topicref>
+<topicref href="topics/tprompt.dita" id="tprompt" locktitle="yes"
+navtitle="Disabling prompts to save work when closing test client">
+</topicref>
+<topicref href="topics/ttimeout.dita" id="ttimeout" locktitle="yes"
+navtitle="Specifying the timeout value for the test client"></topicref>
+<topicref href="topics/tpublish.dita" id="tpublish" locktitle="yes"
+navtitle="Specifying the default action when publishing to a server">
+</topicref>
+<topicref href="topics/tbusprop.dita" id="tbusprop" locktitle="yes"
+navtitle="Selecting business graph properties to display"></topicref>
+<topicref href="topics/tmaxdepth.dita" id="tmaxdepth" locktitle="yes"
+navtitle="Specifying the maximum depth of expanded business objects">
+</topicref>
+<topicref href="topics/tvalues.dita" id="tvalues" locktitle="yes"
+navtitle="Specifying the maximum number of previous input values to save">
+</topicref>
+<topicref href="topics/tdefpool.dita" id="tdefpool" locktitle="yes"
+navtitle="Specifying a default data pool"></topicref>
+<topicref href="topics/tfgtdef.dita" id="tfgtdef" locktitle="yes"
+navtitle="Enabling or disabling fine-grained trace"></topicref>
+<topicref href="topics/thilite.dita" id="thilite" locktitle="yes"
+navtitle="Controlling event path highlighting for fine-grained trace">
+</topicref>
+<topicref href="topics/tsplit.dita" id="tsplit" locktitle="yes"
+navtitle="Controlling split-editor mode for fine-grained trace">
+</topicref>
+<topicref href="topics/tsecure.dita" id="tsecure" locktitle="yes"
+navtitle="Specifying security settings for server authentication">
+</topicref>
+<topicref href="topics/tkeyboard.dita" id="tkeyboard" locktitle="yes"
+navtitle="Customizing keyboard shortcuts"></topicref>
+</topicref>
+<topicref href="topics/tgetstrt.dita" id="tgetstrt" locktitle="yes"
+navtitle="Getting started"></topicref>
+<!--Removing "family" from topicref-->
+<topicref href="topics/tmanpass.dita" id="tmanpass"
+navtitle="Running unit tests in the test client">
+<topicref href="topics/ttestop.dita" id="ttestop"
+navtitle="Testing interface operations">
+<topicref href="topics/tstrttst.dita" id="tstrttst"
+navtitle="Opening the integration test client"></topicref>
+<topicref href="topics/tselprop.dita" id="tselprop" locktitle="yes"
+navtitle="Selecting operations for testing"></topicref>
+<topicref href="topics/taddvalu.dita" id="taddvalu" locktitle="yes"
+navtitle="Specifying operation values"></topicref>
+<topicref href="topics/taddenvartc.dita" id="taddenvartc" locktitle="yes"
+navtitle="Referencing environment variables"></topicref>
+<topicref href="topics/tdefenvartc.dita" id="tdefenvartc"
+navtitle="Defining environment variable values in the test client">
+</topicref>
+<topicref href="topics/tdefenvarconsole.dita" id="tdefenvarconsole"
+navtitle="Defining environment variable values in the administrative console">
+</topicref>
+<!--Removing "family" from topicref-->
+<topicref href="topics/tusepool.dita" id="tusepool" locktitle="yes"
+navtitle="Using data pools">
+<topicref href="topics/taddpool.dita" id="taddpool" locktitle="yes"
+navtitle="Adding data pools"></topicref>
+<topicref href="topics/topnpool.dita" id="topnpool" locktitle="yes"
+navtitle="Opening the data pool editor"></topicref>
+<topicref href="topics/tdatpool.dita" id="tdatpool" locktitle="yes"
+navtitle="Adding values to data pools"></topicref>
+<topicref href="topics/tdatpool2.dita" id="tdatpool2" locktitle="yes"
+navtitle="Using values from data pools"></topicref>
+<topicref href="topics/tdelpool.dita" id="tdelpool" locktitle="yes"
+navtitle="Deleting data pool files"></topicref>
+</topicref>
+<topicref href="topics/tinvoke.dita" id="invoke.dita" locktitle="yes"
+navtitle="Invoking operations"></topicref>
+<topicref href="topics/tdplymod.dita" id="tdplymod" locktitle="yes"
+navtitle="Deploying modules"></topicref>
+<topicref href="topics/tchgdply.dita" id="tchgdply" locktitle="yes"
+navtitle="Changing deployment properties"></topicref>
+<topicref href="topics/temulval.dita" id="temulval" locktitle="yes"
+navtitle="Specifying emulation values"></topicref>
+<topicref href="topics/thtemulval.dita" id="thtemulval" locktitle="yes"
+navtitle="Specifying human task emulation values"></topicref>
+<topicref href="topics/treinvk.dita" id="treinvk" locktitle="yes"
+navtitle="Reinvoking operations"></topicref>
+<topicref href="topics/tinvoper.dita" id="tinvoper" locktitle="yes"
+navtitle="Generating Invoke events"></topicref>
+<topicref href="topics/tfilter.dita" id="tfilter" locktitle="yes"
+navtitle="Filtering events"></topicref>
+<topicref href="topics/tstopop.dita" id="tstopop" locktitle="yes"
+navtitle="Stopping server connections"></topicref>
+<topicref href="topics/trmvevnt.dita" id="trmvevnt" locktitle="yes"
+navtitle="Removing events"></topicref>
+</topicref>
+<topicref href="topics/ttestexp.dita" id="ttestexp" locktitle="yes"
+navtitle="Testing exports"></topicref>
+<topicref href="topics/ttstsoap.dita" id="ttstsoap" locktitle="yes"
+navtitle="Testing web service exports with SOAP messages"></topicref>
+<topicref href="topics/ttestgateway.dita" id="ttestgateway"
+locktitle="yes" navtitle="Testing a web service gateway"></topicref>
+<topicref href="topics/txmlunittest.dita" id="txmlunittest"
+locktitle="yes" navtitle="Testing XML maps"></topicref>
+<topicref href="topics/ttestbg.dita" id="ttestbg.dita" locktitle="yes"
+navtitle="Testing business graphs"></topicref>
+<topicref href="topics/ttestdef.dita" id="ttestdef"
+navtitle="Testing event definitions"></topicref>
+<topicref href="topics/tcrttestcase.dita" id="tcrttestcase"
+locktitle="yes" navtitle="Creating test cases from unit tests">
+</topicref>
+<!--Removing "family" from topicref-->
+<topicref href="topics/tmngtrce.dita" id="tmngtrce"
+navtitle="Managing test traces">
+<topicref href="topics/tsavtrce.dita" id="tsavtrce" locktitle="yes"
+navtitle="Saving test traces"></topicref>
+<topicref href="topics/tlodtrce.dita" id="tlodtrce" locktitle="yes"
+navtitle="Loading test traces"></topicref>
+<topicref href="topics/tdeltrce.dita" id="tdeltrce" locktitle="yes"
+navtitle="Deleting test trace files"></topicref>
+</topicref>
+<!--Removing "family" from topicref-->
+<topicref href="topics/tmngatch.dita" id="tmngatch" locktitle="yes"
+navtitle="Managing test configuration module attachments">
+<topicref href="topics/tatchmod.dita" id="tatchmod" locktitle="yes"
+navtitle="Attaching to test configuration modules"></topicref>
+<topicref href="topics/tsynatch.dita" id="tsynatch" locktitle="yes"
+navtitle="Synchronizing Attach events"></topicref>
+<topicref href="topics/tdtchmod.dita" id="tdtchmod" locktitle="yes"
+navtitle="Detaching from test configuration modules"></topicref>
+</topicref>
+</topicref>
+<topicref href="topics/ttestfgt.dita" id="ttestfgt" locktitle="yes"
+navtitle="Running tests with fine-grained trace"></topicref>
+<topicref href="topics/truncomptest.dita" id="truncomptest"
+locktitle="yes" navtitle="Running component tests in the test client">
+</topicref>
+<!--Removing "family" from topicref-->
+<topicref href="topics/tmancnfg.dita" id="tmancnfg" locktitle="yes"
+navtitle="Managing test configurations">
+<topicref href="topics/taddtestbuckconfig.dita" id="taddtestbuckconfig"
+locktitle="yes" navtitle="Adding test bucket configurations"></topicref>
+<!--Removing "family" from topicref-->
+<topicref href="topics/tedittestbuckconfig.dita" id="tedittestbuckconfig"
+locktitle="yes" navtitle="Editing test bucket configurations">
+<topicref href="topics/taddsuitetoconfig.dita" id="taddsuitetoconfig"
+locktitle="yes" navtitle="Adding test cases"></topicref>
+<topicref href="topics/rmvtestcases.dita" id="rmvtestcases"
+locktitle="yes" navtitle="Removing test cases"></topicref>
+</topicref>
+<topicref href="topics/tcrtcnfg.dita" id="tcrtcnfg" locktitle="yes"
+navtitle="Adding test configurations"></topicref>
+<!--Removing "family" from topicref-->
+<topicref href="topics/tedtcnfg.dita" id="tedtcnfg" locktitle="yes"
+navtitle="Editing the test configuration">
+<topicref href="topics/taddmod.dita" id="taddmod" locktitle="yes"
+navtitle="Adding modules"></topicref>
+<topicref href="topics/trmvmod.dita" id="trmvmod" locktitle="yes"
+navtitle="Removing modules"></topicref>
+<topicref href="topics/tadmemul.dita" id="tadmemul" locktitle="yes"
+navtitle="Adding component or reference emulators"></topicref>
+<topicref href="topics/tadmemul1.dita" id="tadmemul1" locktitle="yes"
+navtitle="Adding human task emulators"></topicref>
+<topicref href="topics/tclaim.dita" id="tclaim" locktitle="yes"
+navtitle="Specifying a wait time for human task claims"></topicref>
+<topicref href="topics/towner.dita" id="towner" locktitle="yes"
+navtitle="Specifying a potential owner for a human task"></topicref>
+<topicref href="topics/tchgemul.dita" id="tchgemul" locktitle="yes"
+navtitle="Redefining emulators as manual"></topicref>
+<topicref href="topics/tadepemu.dita" id="tadepemu" locktitle="yes"
+navtitle="Redefining emulators as programmatic"></topicref>
+<topicref href="topics/tadnpemu.dita" id="tadnpemu" locktitle="yes"
+navtitle="Creating programmatic emulation files"></topicref>
+<topicref href="topics/tedpemul.dita" id="tedpemul" locktitle="yes"
+navtitle="Editing programmatic emulation files"></topicref>
+<topicref href="topics/tdblemul.dita" id="tdblemul" locktitle="yes"
+navtitle="Disabling emulators"></topicref>
+<topicref href="topics/trmvemul.dita" id="trmvemul" locktitle="yes"
+navtitle="Removing emulators"></topicref>
+<topicref href="topics/tdelpemu.dita" id="tdelpemu" locktitle="yes"
+navtitle="Deleting programmatic emulation files"></topicref>
+<topicref href="topics/taddmon.dita" id="taddmon" locktitle="yes"
+navtitle="Adding monitors"></topicref>
+<topicref href="topics/tedtmon.dita" id="tedtmon" locktitle="yes"
+navtitle="Editing monitors"></topicref>
+<topicref href="topics/trmvmon.dita" id="trmvmon" locktitle="yes"
+navtitle="Removing monitors"></topicref>
+<topicref href="topics/taddfgt.dita" id="taddfgt" locktitle="yes"
+navtitle="Adding fine-grained traces"></topicref>
+<topicref href="topics/tedtfgt.dita" id="tedtfgt" locktitle="yes"
+navtitle="Editing fine-grained traces"></topicref>
+<topicref href="topics/trmvfgt.dita" id="trmvfgt" locktitle="yes"
+navtitle="Removing fine-grained traces"></topicref>
+</topicref>
+<topicref href="topics/tsavcnfg.dita" id="tsavcnfg" locktitle="yes"
+navtitle="Saving test configurations"></topicref>
+<topicref href="topics/tlodcnfg.dita" id="tlodcnfg" locktitle="yes"
+navtitle="Loading test configurations"></topicref>
+<topicref href="topics/trmvcnfg.dita" id="trmvcnfg" locktitle="yes"
+navtitle="Removing test configurations"></topicref>
+<topicref href="topics/tdelcnfg.dita" id="tdelcnfg" locktitle="yes"
+navtitle="Deleting test configuration files"></topicref>
+</topicref>
+<topicref href="topics/tlogout.dita" id="tlogout" locktitle="yes"
+navtitle="Logging out of server security login sessions"></topicref>
+<topicref href="topics/rprobs.dita" id="rprobs" locktitle="yes"
+navtitle="Limitations"></topicref>
+</topicref>
+<topicref href="topics/ccomptestovw.dita" id="ccomptestovw.dita"
+locktitle="yes" navtitle="Component testing">
+<!--Removing "family" from topicref-->
+<topicref href="topics/rtestsuiteui.dita" id="rtestsuiteui"
+locktitle="yes" navtitle="Test suite editor">
+<topicref href="topics/rovrvwpg.dita" id="rovrvwpg" locktitle="yes"
+navtitle="Overview page"></topicref>
+<topicref href="topics/rtcasepg.dita" id="rtcasepg" locktitle="yes"
+navtitle="Test Cases page"></topicref>
+<topicref href="topics/rtestdatapg.dita" id="rtestdatapg" locktitle="yes"
+navtitle="Test Data Table view"></topicref>
+<topicref href="topics/rcnfgspg2.dita" id="rcnfgspg2" locktitle="yes"
+navtitle="Configurations page"></topicref>
+</topicref>
+<!--Removing "family" from topicref-->
+<topicref href="topics/tsetpref2.dita" id="tsetpref2" locktitle="yes"
+navtitle="Setting preferences">
+<topicref href="topics/tmaxdepth2.dita" id="tmaxdepth2" locktitle="yes"
+navtitle="Specifying the maximum depth of expanded business objects">
+</topicref>
+<topicref href="topics/tkeyboard2.dita" id="tkeyboard2" locktitle="yes"
+navtitle="Customizing keyboard shortcuts"></topicref>
+</topicref>
+<topicref href="topics/tgetstrt2.dita" id="tgetstrt2" locktitle="yes"
+navtitle="Getting started: Top-down testing of test cases"></topicref>
+<!--Removing "family" from topicref-->
+<topicref href="topics/tmngsuites.dita" id="tmngsuites" locktitle="yes"
+navtitle="Managing test suites">
+<topicref href="topics/tcrtproj.dita" id="tcrtproj.dita" locktitle="yes"
+navtitle="Creating component test projects"></topicref>
+<!--Removing "family" from topicref-->
+<topicref href="topics/tcrtsuite.dita" id="tcrtsuite" locktitle="yes"
+navtitle="Creating component test suites">
+<topicref href="topics/tcrtempty.dita" id="tcrtempty" locktitle="yes"
+navtitle="Creating test suites without test cases"></topicref>
+<topicref href="topics/tcrtsuiteoper.dita" id="tcrtsuiteoper"
+locktitle="yes"
+navtitle="Creating test suites with operation-level test cases">
+</topicref>
+<topicref href="topics/tcrtsuitescen.dita" id="tcrtsuitescen"
+locktitle="yes"
+navtitle="Creating test suites with scenario-based test cases">
+</topicref>
+</topicref>
+<topicref href="topics/teditsuites.dita" id="teditsuites" locktitle="yes"
+navtitle="Editing test suites">
+<topicref href="topics/topenedit.dita" id="topenedit" locktitle="yes"
+navtitle="Opening the test suite editor"></topicref>
+<topicref href="topics/tdescsuite.dita" id="tdescsuite" locktitle="yes"
+navtitle="Adding descriptions to test suites"></topicref>
+<!--Removing "family" from topicref-->
+<topicref href="topics/tmngcases.dita" id="tmngcases" locktitle="yes"
+navtitle="Creating and managing test cases">
+<topicref href="topics/tcrtcase.dita" id="tcrtcase" locktitle="yes"
+navtitle="Adding test cases from the Business Integration view">
+</topicref>
+<!--Removing "family" from topicref-->
+<topicref href="topics/tmngdata.dita" id="tmngdata" locktitle="yes"
+navtitle="Managing test data">
+<topicref href="topics/taddvar.dita" id="taddvar" locktitle="yes"
+navtitle="Adding variables"></topicref>
+<topicref href="topics/tusetable.dita" id="tusetable" locktitle="yes"
+navtitle="Specifying variable values"></topicref>
+<topicref href="topics/ttestexp2.dita" id="ttestexp2" locktitle="yes"
+navtitle="Specifying variable values for exports"></topicref>
+<topicref href="topics/ttstsoap2.dita" id="ttstsoap2" locktitle="yes"
+navtitle="Specifying values for Web Services exports with SOAP messages">
+</topicref>
+<topicref href="topics/taddenvar.dita" id="taddenvar" locktitle="yes"
+navtitle="Referencing environment variables"></topicref>
+<topicref href="topics/rjavaexp.dita" id="rjavaexp" locktitle="yes"
+navtitle="Java expressions"></topicref>
+</topicref>
+<!--Removing "family" from topicref-->
+<topicref href="topics/tmngvar.dita" id="tmngvar" locktitle="yes"
+navtitle="Managing test variations">
+<topicref href="topics/tcrtvar.dita" id="tcrtvar" locktitle="yes"
+navtitle="Creating test variations"></topicref>
+<topicref href="topics/trmvvar.dita" id="trmvvar" locktitle="yes"
+navtitle="Removing test variations"></topicref>
+</topicref>
+<!--Removing "family" from topicref-->
+<topicref href="topics/tmnginv.dita" id="tmnginv" locktitle="yes"
+navtitle="Managing invocations">
+<topicref href="topics/taddinv.dita" id="taddinv" locktitle="yes"
+navtitle="Adding invocation steps"></topicref>
+<topicref href="topics/tseloper.dita" id="tseloper" locktitle="yes"
+navtitle="Selecting operations for testing"></topicref>
+<topicref href="topics/tdefasynch.dita" id="tdefasynch" locktitle="yes"
+navtitle="Defining invocations as asynchronous"></topicref>
+<topicref href="topics/tdefignorexp.dita"
+navtitle="Ignoring exception errors for an invocation"></topicref>
+<topicref href="topics/tselvalues.dita" id="tselvalues" locktitle="yes"
+navtitle="Specifying request, response, and exception variables">
+</topicref>
+<topicref href="topics/trefresh.dita" id="trefresh" locktitle="yes"
+navtitle="Refreshing invocations"></topicref>
+<topicref href="topics/trmvinv.dita" id="trmvinv" locktitle="yes"
+navtitle="Removing invocations"></topicref>
+</topicref>
+<!--Removing "family" from topicref-->
+<topicref href="topics/tmngwait.dita" id="tmngwait" locktitle="yes"
+navtitle="Managing Wait On steps">
+<topicref href="topics/taddwait.dita" id="taddwait" locktitle="yes"
+navtitle="Adding Wait On steps"></topicref>
+<topicref href="topics/tchgwait.dita" id="tchgwait" locktitle="yes"
+navtitle="Selecting asynchronous invocations for Wait On steps">
+</topicref>
+<topicref href="topics/ttimeout2.dita" id="ttimeout2" locktitle="yes"
+navtitle="Specifying timeout values for Wait On steps"></topicref>
+<topicref href="topics/trmvwait.dita" id="trmvwait" locktitle="yes"
+navtitle="Removing Wait On steps"></topicref>
+</topicref>
+<!--Removing "family" from topicref-->
+<topicref href="topics/tmngwaittask.dita" id="tmngwaittask"
+locktitle="yes" navtitle="Managing Wait for Time steps">
+<topicref href="topics/taddwaittask.dita" id="taddwaittask"
+locktitle="yes" navtitle="Adding Wait for Time steps"></topicref>
+<topicref href="topics/ttimeout2task.dita" id="ttimeout2task"
+locktitle="yes"
+navtitle="Specifying timeout values for Wait for Time steps"></topicref>
+<topicref href="topics/trmvwaittask.dita" id="trmvwaittask"
+locktitle="yes" navtitle="Removing Wait for Time steps"></topicref>
+</topicref>
+<!--Removing "family" from topicref-->
+<topicref href="topics/tmngverifyevent.dita" id="tmngverifyevent"
+locktitle="yes" navtitle="Managing Verify Event steps">
+<topicref href="topics/taddrunrequest.dita" id="taddrunrequest"
+locktitle="yes"
+navtitle="Adding and running Verify Event steps for monitor requests">
+</topicref>
+<topicref href="topics/taddrunresponse.dita" id="taddrunresponse"
+locktitle="yes"
+navtitle="Adding and running Verify Event steps for monitor responses">
+</topicref>
+<topicref href="topics/taddrunexception.dita" id="taddrunexception"
+locktitle="yes"
+navtitle="Adding and running Verify Event steps for monitor exceptions">
+</topicref>
+<topicref href="topics/taddrunfgt.dita" id="taddrunfgt" locktitle="yes"
+navtitle="Adding and running Verify Event steps for fine-grained traces">
+</topicref>
+<topicref href="topics/teditverifyeventtask.dita"
+id="teditverifyeventtask" locktitle="yes"
+navtitle="Editing Verify Event steps for monitor requests, responses, and exceptions ">
+</topicref>
+<topicref href="topics/teditverifyeventtaskfgt.dita"
+id="teditverifyeventtaskfgt" locktitle="yes"
+navtitle="Editing Verify Event steps for fine-grained traces ">
+</topicref>
+<topicref href="topics/trmvverifyeventtask.dita" id="trmvverifyeventtask"
+locktitle="yes" navtitle="Removing Verify Event steps"></topicref>
+</topicref>
+<!--Removing "family" from topicref-->
+<topicref href="topics/tmngemuldef.dita" id="tmngemuldef" locktitle="yes"
+navtitle="Managing emulator definition steps">
+<topicref href="topics/taddruncomponent.dita" id="taddruncomponent"
+locktitle="yes"
+navtitle="Adding and running emulator definition steps for components">
+</topicref>
+<topicref href="topics/taddrunreference.dita" id="taddrunreference"
+locktitle="yes"
+navtitle="Adding and running emulator definition steps for references">
+</topicref>
+<topicref href="topics/taddruninline.dita" id="taddruninline"
+locktitle="yes"
+navtitle="Adding and running emulator definition steps for inline human tasks">
+</topicref>
+<topicref href="topics/taddrunstandalone.dita" id="taddrunstandalone"
+locktitle="yes"
+navtitle="Adding and running emulator definition steps for stand-alone human tasks">
+</topicref>
+<topicref href="topics/teditcompref.dita" id="teditcompref"
+locktitle="yes"
+navtitle="Editing emulator definition steps for components and references">
+</topicref>
+<topicref href="topics/tedithumantask.dita" id="tedithumantask"
+locktitle="yes"
+navtitle="Editing emulator definition steps for human tasks"></topicref>
+<topicref href="topics/trunnomatch.dita" id="trunnomatch" locktitle="yes"
+navtitle="Running test suites with unmatched emulator definition steps">
+</topicref>
+<topicref href="topics/trmvemuldef.dita" id="trmvemuldef" locktitle="yes"
+navtitle="Removing emulator definition steps"></topicref>
+</topicref>
+<topicref href="topics/trmvcase.dita" id="trmvcase" locktitle="yes"
+navtitle="Removing test cases"></topicref>
+</topicref>
+<!--Removing "family" from topicref-->
+<topicref href="topics/tedtcnfg2.dita" id="tedtcnf2" locktitle="yes"
+navtitle="Managing test configurations">
+<topicref href="topics/taddmod2.dita" id="taddmod2" locktitle="yes"
+navtitle="Adding modules"></topicref>
+<topicref href="topics/trmvmod2.dita" id="trmvmod2" locktitle="yes"
+navtitle="Removing modules"></topicref>
+<topicref href="topics/tadmemul2.dita" id="tadmemul2" locktitle="yes"
+navtitle="Adding component or reference emulators"></topicref>
+<topicref href="topics/tadmemul3.dita" id="tadmemul3" locktitle="yes"
+navtitle="Adding human task emulators"></topicref>
+<topicref href="topics/toneway.dita" id="toneway" locktitle="yes"
+navtitle="Emulating components and references when invoking one-way operations">
+</topicref>
+<topicref href="topics/tclaim2.dita" id="tclaim2" locktitle="yes"
+navtitle="Specifying a wait time for human task claims"></topicref>
+<topicref href="topics/towner1.dita" id="towner1" locktitle="yes"
+navtitle="Specifying a potential owner for a human task"></topicref>
+<topicref href="topics/tadepemu2.dita" id="tadepemu2" locktitle="yes"
+navtitle="Defining emulators as programmatic"></topicref>
+<topicref href="topics/tadnpemu2.dita" id="tadnpemu2" locktitle="yes"
+navtitle="Creating programmatic emulation files"></topicref>
+<topicref href="topics/tedpemul2.dita" id="tedpemul2" locktitle="yes"
+navtitle="Editing programmatic emulation files"></topicref>
+<topicref href="topics/tchgemul2.dita" id="tchgemul2" locktitle="yes"
+navtitle="Disabling emulators"></topicref>
+<topicref href="topics/trmvemul2.dita" id="trmvemul2" locktitle="yes"
+navtitle="Removing emulators"></topicref>
+<topicref href="topics/tdelpemu2.dita" id="tdelpemu2" locktitle="yes"
+navtitle="Deleting programmatic emulation files"></topicref>
+<topicref href="topics/taddmon2.dita" id="taddmon2" locktitle="yes"
+navtitle="Adding monitors"></topicref>
+<topicref href="topics/tedtmon2.dita" id="tedtmon2" locktitle="yes"
+navtitle="Editing monitors"></topicref>
+<topicref href="topics/trmvmon2.dita" id="trmvmon2" locktitle="yes"
+navtitle="Removing monitors"></topicref>
+<topicref href="topics/taddfgt2.dita" id="taddfgt2" locktitle="yes"
+navtitle="Adding fine-grained traces"></topicref>
+<topicref href="topics/tedtfgt2.dita" id="tedtfgt2" locktitle="yes"
+navtitle="Editing fine-grained traces"></topicref>
+<topicref href="topics/trmvfgt2.dita" id="trmvfgt2" locktitle="yes"
+navtitle="Removing fine-grained traces"></topicref>
+</topicref>
+</topicref>
+</topicref>
+<topicref href="topics/tdepend.dita" id="tdepend" locktitle="yes"
+navtitle="Specifying dependencies for component test projects">
+</topicref>
+<topicref href="topics/truntests.dita" id="truntests" locktitle="yes"
+navtitle="Running test suites"></topicref>
+<!--Removing "family" from topicref-->
+<topicref href="topics/tscripttest.dita" id="tscripttest" locktitle="yes"
+navtitle="Automating tests using Ant scripts">
+<!--Removing "family" from topicref-->
+<topicref href="topics/ttestwid.dita" id="ttestwid" locktitle="yes"
+navtitle="Using Ant scripts for testing in headless WebSphere Integration Developer">
+<topicref href="topics/cscripttestovr.dita" id="cscripttestovr"
+locktitle="yes" navtitle="Overview"></topicref>
+<topicref href="topics/twrkscripts.dita" id="twrkscripts" locktitle="yes"
+navtitle="Working with scripts"></topicref>
+<!--Removing "family" from topicref-->
+<topicref href="topics/tscriptcomtest.dita" id="tscriptcomtest"
+locktitle="yes" navtitle="Using scripts in common testing scenarios">
+<topicref href="topics/tscriptrarechg.dita" id="tscriptrarechg"
+locktitle="yes"
+navtitle="Creating a script for test cases that rarely change">
+</topicref>
+<topicref href="topics/tscriptfreqchg.dita" id="tscriptfreqchg"
+locktitle="yes"
+navtitle="Creating a script for test cases that change frequently">
+</topicref>
+<topicref href="topics/tscriptcvsrepos.dita" id="tscriptcvsrepos"
+locktitle="yes"
+navtitle="Creating a script for test cases stored in a CVS repository">
+</topicref>
+</topicref>
+<topicref href="topics/rscriptaddtasks.dita" id="rscriptaddtasks"
+locktitle="yes" navtitle="Additional Ant tasks"></topicref>
+<topicref href="topics/rscriptxmloutput.dita" id="rscriptxmloutput"
+locktitle="yes" navtitle="Example of an XML output file"></topicref>
+<topicref href="topics/rscriptbatch.dita" id="rscriptbatch"
+locktitle="yes" navtitle="Example of a batch file to launch a script">
+</topicref>
+</topicref>
+<!--Removing "family" from topicref-->
+<topicref href="topics/ttestsd.dita" id="ttestsd" locktitle="yes"
+navtitle="Using Ant scripts for testing in headless WebSphere Business Process Manager">
+<topicref href="topics/cscripttestovrWPS.dita" id="cscripttestovrWPS"
+locktitle="yes" navtitle="Overview"></topicref>
+<topicref href="topics/tcfgcvs.dita" id="tcfgcvs" locktitle="yes"
+navtitle="Populating CVS with the required artifacts"></topicref>
+<topicref href="topics/tcfgant.dita" id="tcfgant" locktitle="yes"
+navtitle="Configuring an Ant script"></topicref>
+<topicref href="topics/trunant.dita" id="trunant" locktitle="yes"
+navtitle="Running the Ant script"></topicref>
+<topicref href="topics/tviewxml.dita" id="tviewxml" locktitle="yes"
+navtitle="Viewing the XML output file"></topicref>
+<topicref href="topics/rmoreservlettasks.dita" id="rmoreservlettasks"
+locktitle="yes" navtitle="Additional servlet tasks"></topicref>
+<!--Removing "family" from topicref-->
+<topicref href="topics/rexamples.dita" id="rexamples" locktitle="yes"
+navtitle="Examples of script files">
+<topicref href="topics/rxmpant.dita" id="rxmpant" locktitle="yes"
+navtitle="Example of an Ant script"></topicref>
+<topicref href="topics/rxmpxsd.dita" id="rxmpxsd" locktitle="yes"
+navtitle="Example of an XSD file"></topicref>
+<topicref href="topics/rxmpxml.dita" id="rxmpxml" locktitle="yes"
+navtitle="Example of an XML output file"></topicref>
+</topicref>
+<topicref href="topics/rlimitations.dita" id="rlimitations"
+locktitle="yes" navtitle="Limitations"></topicref>
+</topicref>
+</topicref>
+<!--Removing "family" from topicref-->
+<topicref href="topics/ttestcte.dita" id="ttestcte" locktitle="yes"
+navtitle="Testing with the Component Test Explorer">
+<topicref href="topics/CTEoverview.dita" id="CTEoverview" locktitle="yes"
+navtitle="Overview"></topicref>
+<topicref href="topics/CTEcomptestUI.dita" id="CTEcomptestUI"
+locktitle="yes" navtitle="Component Test Explorer"></topicref>
+<topicref href="topics/tstartcte.dita" id="tstartcte" locktitle="yes"
+navtitle="Starting Component Test Explorer"></topicref>
+<topicref href="topics/CTEtests.dita" id="CTEtests" locktitle="yes"
+navtitle="Running test projects, suites, and cases"></topicref>
+<topicref href="topics/CTEscheduler.dita" id="CTEscheduler"
+locktitle="yes" navtitle="Scheduling tests"></topicref>
+<topicref href="topics/CTEglobalemulator.dita" id="CTEglobalemulator"
+locktitle="yes" navtitle="Defining global emulators"></topicref>
+<topicref href="topics/CTEhumantaskem.dita" id="CTEhumantaskem"
+locktitle="yes" navtitle="Emulating human tasks"></topicref>
+</topicref>
+<topicref href="topics/rprobs2.dita" id="rprobs2" locktitle="yes"
+navtitle="Limitations"></topicref>
+</topicref>
+</topicref>
+<!--Related links for the Testing modules section-->
+<reltable otherprops="not-pdf">
+<relrow>
+<relcell>
+<topicref href="topics/tstrttst.dita"
+navtitle="Opening the integration test client"></topicref><?Pub Caret -1?>
+</relcell>
+<relcell>
+<topicref keyref="ttestsol"></topicref>
+</relcell>
+</relrow>
+</reltable>
+</map>
+<?Pub *0000029401?>
