@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Arbortext, Inc., 1988-2011, v.4002-->
+<!DOCTYPE map PUBLIC "-//IBM//DTD DITA IBM Map//EN"
+ "ibm-map.dtd">
+<map title="Event monitor" xml:lang="en-us">
+<!--Removing "family" from topicref-->
+<topicref href="cei/topics//tcei.dita" id="tcei"
+navtitle="Monitoring events">
+<topicref href="cei/topics//cceiovw.dita" id="cceiovw" locktitle="yes"
+navtitle="Event generation and monitoring"></topicref>
+<!-- Removing this topic (48532) graphics removed, no content left. EA instead (IO) -->
+<!--<topicref href="cei/topics//rceiui.dita" id="rceiui" locktitle="yes"
+navtitle="Event monitor"></topicref>-->
+<topicref href="cei/topics//cmonel.dita" id="cmonel" locktitle="yes"
+navtitle="Monitorable components and elements"></topicref>
+<topicref href="cei/topics//cpredef.dita" id="cpredef" locktitle="yes"
+navtitle="Default events for business processes"></topicref>
+<topicref href="cei/topics//rrtevnts.dita" id="rrtevnts.dita"
+locktitle="yes"
+navtitle="Business Process Choreographer and run time events">
+</topicref>
+<topicref href="cei/topics//tprep.dita" id="tprep" locktitle="yes"
+navtitle="Configuring WebSphere Business Process Manager to support event monitoring">
+</topicref>
+<topicref href="cei/topics//tstrtmon.dita" id="tstrtmon"
+navtitle="Opening the event monitor"></topicref>
+<topicref href="cei/topics//tindiv.dita" id="tindiv" locktitle="yes"
+navtitle="Specifying event properties for component elements">
+</topicref>
+<topicref href="cei/topics//tglobal.dita" id="tglobal" locktitle="yes"
+navtitle="Specifying event properties for components"></topicref>
+<!--Commenting out CBE browser topics, per 127605 
+<topicref href="cei/topics//tvwevnt.dita" id="tvwevnt"
+navtitle="Viewing CEI events"></topicref>
+-->
+</topicref>
+
+</map>
