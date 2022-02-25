@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Arbortext, Inc., 1988-2011, v.4002-->
+<!DOCTYPE map PUBLIC "-//IBM//DTD DITA IBM Map//EN"
+ "ibm-map.dtd">
+<?Pub Sty _display FontColor="red"?>
+<?Pub Inc?>
+<map title="Build" xml:lang="en-us">
+<!--Removing "family" from topicref-->
+<topicref href="building/topics/tbuilds.dita" id="tbuilds"
+locktitle="yes" navtitle="Managing builds">
+<topicref href="building/topics/cbuilds.dita" id="cbuilds"
+locktitle="yes" navtitle="Builds in WebSphere Integration Developer">
+</topicref>
+<topicref href="building/topics/rbldview.dita" id="rbldview"
+locktitle="yes" navtitle="Build Activities view"></topicref>
+<topicref href="building/topics/tsetpref.dita" id="tsetpref"
+locktitle="yes" navtitle="Setting preferences">
+<topicref href="building/topics/tdsblwarn.dita" id="tdsblwarn"
+locktitle="yes"
+navtitle="Controlling prompts about the Build Automatically menu item">
+</topicref>
+<topicref href="building/topics/tdsbldlg.dita" id="tdsbldlg"
+locktitle="yes"
+navtitle="Disabling or enabling the Publish Changes window"></topicref>
+<topicref href="building/topics/tclean.dita" id="tclean" locktitle="yes"
+navtitle="Controlling clean build participation for libraries">
+</topicref>
+</topicref>
+<topicref href="building/topics/tauto.dita" id="tauto" locktitle="yes"
+navtitle="Specifying build activities for builds"></topicref>
+<topicref href="building/topics/tmanual.dita" id="tmanual"
+locktitle="yes" navtitle="Invoking manual builds"></topicref>
+<topicref href="building/topics/tstatus.dita" id="tstatus"
+locktitle="yes" navtitle="Viewing the status of projects"></topicref>
+<topicref href="building/topics/tpub.dita" id="tpub" locktitle="yes"
+navtitle="Publishing changed resources to servers"></topicref>
+</topicref>
+<reltable>
+<relrow>
+<relcell>
+<topicref href="building/topics/tpub.dita"></topicref><?Pub Caret -1?>
+</relcell>
+<relcell>
+<topicref keyref="troubleshoot_install_largeprocapp"></topicref>
+</relcell>
+</relrow>
+<!--Accidentally lost the reltable change for 54407; replacing it.-->
+</reltable>
+</map>
+<?Pub *0000002066?>
