@@ -3,71 +3,10 @@
 <!DOCTYPE concept PUBLIC "-//IBM//DTD DITA IBM Concept//EN"
  "ibm-concept.dtd">
 <concept id="teamviews" xml:lang="en-us" product="ebpm_flag">
-<title>Perspectives and views for team development in <keyword
-conref="../../shared/shared_variables/variables.dita#variables/key_wid"></keyword></title>
-<shortdesc>Several perspectives and views in <keyword
-conref="../../shared/shared_variables/variables.dita#variables/key_wid_long"></keyword> are
-useful for collaborative development. </shortdesc>
+<title>team development</title>
+<shortdesc>Several collaborative development. </shortdesc>
 <conbody>
-<p>The following perspectives are critical for team development: <ul>
-<li>Business Integration</li>
-<li>Resource</li>
-<li>Team Synchronizing </li>
-<li><varname>CVS</varname> Repository Exploring (the name changes
-depending on the SCM system being used)</li>
-</ul></p>
-<section><title>Business Integration perspective</title><p>The Business
-Integration perspective is the central work area for <keyword
-conref="../../shared/shared_variables/variables.dita#variables/key_wid"></keyword>, where
-you can do artifact design, development, and component integration.
-You can also do most team development activities, such as check out,
-commit, and update, in this perspective.</p><p>As part of the Business
-Integration perspective, the Physical Resources view lists the relevant
-artifacts and resources for modules and libraries. The Physical Resources
-view is similar to the Project Explorer view under the Resource perspective,
-except that only Service Component Architecture (SCA) modules are
-shown; staging modules are not shown. </p><p>The Business Integration
-view includes a Show Files option that displays all authored files
-for an artifact. For example, a Business Process Execution Language
-(BPEL) process saves its process flow logic in a .bpel file, but there
-are other backing files-.bpelex<!--, .mon,--> and Artifacts.wsdl-that
-are needed for the BPEL process to build properly. Right-click any
-artifact and select <uicontrol>Show Files</uicontrol> to open the
-view. The Show Files option highlights all the backing files in the
-Physical Resources view.</p></section>
-<section><title>Physical Resources view</title><p>The Physical Resources
-view shows all of the file-level resources from the modules and libraries
-in their natural form. Related projects that are generated when you
-create business integration applications are still hidden in this
-view.</p><p>The logical contents of the physical file are also displayed
-in this view. For example, if you have several business objects in
-an XSD file, you will be able to expand the XSD file in this view
-and see all the business objects in the file. </p><p>If you have an
-artifact open in an editor, you can click the opened artifact in the
-editor pane (to focus on it) and then click the <uicontrol>Link with
-Editor</uicontrol> button to quickly locate the file in the Business
-Integration view.  </p><p>You can apply filters to exclude all but
-the objects that you want from the Physical Resources view. By default,
-filters are enabled for XSD files to make it easier to find data types.
-You can also apply filters to WSDL files by enabling that function
-in Preferences and you can apply a filter to hide secondary artifacts. </p><p>The
-.settings folder also appears in this view. The .settings folder contains
-properties that are used by <keyword
-conref="../../shared/shared_variables/variables.dita#variables/key_wid"></keyword> and should
-be shared with each project. For that reason, the .settings folder
-should be added to team repositories. See the related links for more
-information about the .settings folder.</p><!--Add a related link to the settings folder. --></section>
-<section><title>Resource perspective</title><p>In the Project Explorer
-view, which is listed under the Resource perspective, you can see
-every module and artifact in the workspace, including all staging
-modules. </p></section>
-<section><title>Team Synchronizing perspective</title><p>In the Synchronize
-view within the Team Synchronizing perspective, you can synchronize
-the workspace with the remote repository. It displays any relevant
-outgoing or incoming changes and can identify merge conflicts.</p></section>
-<section><title>CVS Repository Exploring perspective</title><p>The
-CVS Repository Exploring perspective lists all modules or projects
-that are currently managed in CVS. If your project uses a different
-SCM provider, then a similar perspective may exist.</p></section>
+<p>test page 2</p>
+<p>The following perspectives are critical for team development: </p>
 </conbody>
 </concept>

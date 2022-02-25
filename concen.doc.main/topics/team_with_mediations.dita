@@ -3,30 +3,10 @@
 <!DOCTYPE concept PUBLIC "-//IBM//DTD DITA IBM Concept//EN"
  "ibm-concept.dtd">
 <concept id="team_with_mediations" xml:lang="en-us" product="ebpm_flag">
-<title>Team development with mediations</title>
+<title>Team development with</title>
 <!--<titlealts><navtitle></navtitle><searchtitle></searchtitle></titlealts>-->
-<shortdesc>When you create a mediation flow, you have the option to
-optimize the mediation flow for team development. </shortdesc>
+<shortdesc>When you create a tea flow</shortdesc>
 <conbody>
-<p>By default, a new mediation flow is saved as a single .medflow
-file for all operations. Thus, if you have a flow with five operations,
-all logic will exist in a single .medflow file. </p>
-<p>You can also choose to save the mediation flow as multiple files.
-In that case, you would have a .medflow file for each operation mapping.
-Multiple files are useful for collaborative development, because each
-developer can work on an operation flow without worrying about conflicts.
-Of course, if your mediation flow only uses a single operation, there
-is no benefit in enabling the team development option.</p>
-<p>There are two practices to follow when saving mediations as multiple
-flows:<ul>
-<li>The mediation flow operation mappings must exist in the same module,
-whether the team development option is enabled or not. Do not create
-a separate module for each operation flow.</li>
-<li>Each user should check out the module from source control. Since
-each operation has its own .medflow file, merge conflicts for the
-mediation flow logic cannot occur if developers do not work on the
-same operation. However, merge conflicts can occur if artifacts that
-are not part of the mediation flow are modified by multiple users.</li>
-</ul></p>
+<p>test 1 </p>
 </conbody>
 </concept>
