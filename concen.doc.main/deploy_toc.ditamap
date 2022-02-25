@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//IBM//DTD DITA IBM Map//EN"
+ "ibm-map.dtd">
+<?Pub Sty _display FontColor="red"?>
+<map title="Deploying modules" xml:lang="en-us">
+<!--JBC: Nov 9, 2011: Moved the exporting and ant scripts topics to xprod.doc.admin for inclusion in new install/deploy runtime apps move, per conversation with anita and rob. Removed them from this map so they didn't break the build.-->
+<topicref href="deploy/topics/tusergoal.dita" id="tusergoal"
+locktitle="yes" navtitle="Editing module deployment properties">
+<topicref href="deploy/topics/cddoverview.dita" id="cddoverview"
+locktitle="yes" navtitle="Module deployment properties"></topicref>
+<topicref href="deploy/topics/cwssecurity.dita" id="cwssecurity"
+locktitle="yes" navtitle="WS-Security specification"></topicref>
+<!--Removing "family" from topicref-->
+<topicref href="deploy/topics/rmoddplyeditor.dita" id="rmoddplyeditor"
+locktitle="yes" navtitle="Module deployment editor"></topicref>
+<topicref href="deploy/topics/rmappings.dita" id="rmappings"
+locktitle="yes"
+navtitle="Mappings to Java 2 Platform Enterprise Edition deployment descriptor editors">
+</topicref>
+<topicref href="deploy/topics/topendd.dita" id="topendd" locktitle="yes"
+navtitle="Opening the module deployment editor"></topicref>
+<topicref href="deploy/topics/teditexports.dita" id="teditexports"
+locktitle="yes" navtitle="Editing WS-Security properties"></topicref>
+<!--Removing "family" from topicref-->
+<topicref href="deploy/topics/timplbasicauth.dita" id="timplauth.dita"
+locktitle="yes" navtitle="Implementing basic authentication">
+<topicref href="deploy/topics/taddsectokenrequest.dita"
+id="taddsectokenrequest" locktitle="yes"
+navtitle="Creating a security token"></topicref>
+<topicref href="deploy/topics/taddtokengenrequest.dita"
+id="taddtokengenrequest" locktitle="yes"
+navtitle="Creating a token generator"></topicref>
+<topicref href="deploy/topics/taddreqtokenrequest.dita"
+id="taddreqtokenrequest" locktitle="yes"
+navtitle="Creating a required security token"></topicref>
+<topicref href="deploy/topics/taddcallerpartrequest.dita"
+id="taddcallerpartrequest" locktitle="yes"
+navtitle="Creating a caller part"></topicref>
+<topicref href="deploy/topics/taddtokenconsumerrequest.dita"
+id="taddtokenconsumerrequest" locktitle="yes"
+navtitle="Creating a token consumer"></topicref>
+<topicref href="deploy/topics/ttest.dita" id="ttest" locktitle="yes"
+navtitle="Testing authentication"></topicref>
+</topicref>
+<topicref href="deploy/topics/tcrtrole.dita" id="tcrtrole"
+locktitle="yes"
+navtitle="Creating and assigning security roles to web service exports">
+</topicref>
+<topicref href="deploy/topics/tbndrole.dita" id="tbndrole"
+locktitle="yes" navtitle="Binding roles defined in assembly diagrams">
+</topicref>
+<topicref href="deploy/topics/tchgurls.dita" id="tchgurls"
+locktitle="yes" navtitle="Changing URLs for Web service exports">
+</topicref>
+<topicref href="deploy/topics/tjaxexpt.dita" id="tjaxexpt"
+locktitle="yes"
+navtitle="Adding JAX-RPC handlers for web service exports"></topicref>
+<topicref href="deploy/topics/tjaximpt.dita" id="tjaximpt"
+locktitle="yes"
+navtitle="Adding JAX-RPC handlers for web service imports"></topicref>
+<topicref href="deploy/topics/tdatasrc.dita" id="tdatasrc"
+locktitle="yes"
+navtitle="Using a resource reference in an assembly diagram ">
+</topicref>
+<topicref href="deploy/topics/rlimits.dita" id="rlimits" locktitle="yes"
+navtitle="Limitations"></topicref>
+</topicref>
+<!--Removing "family" from topicref-->
+<topicref href="deploy/topics/tdplytst.dita" id="tdplytst"
+locktitle="yes" navtitle="Working with servers">
+<topicref href="deploy/topics/tworkuteserv.dita" id="tworkuteserv" locktitle="yes"
+navtitle="Working with UTE servers">
+<topicref href="deploy/topics/tcreate.dita" id="tcreate" locktitle="yes"
+navtitle="Creating test environment servers"/>
+<topicref href="deploy/topics/tcreate.dita" locktitle="yes"
+navtitle="Creating test environment servers"/>
+<topicref href="deploy/topics/teditcfg.dita" id="teditcfg" locktitle="yes"
+navtitle="Editing server configurations"/>
+<topicref href="deploy/topics/tdevmode.dita" id="tdevmode" locktitle="yes"
+navtitle="Enabling development mode for test environment servers"> </topicref>
+<topicref href="deploy/topics/tstart.dita" id="tstart" locktitle="yes" navtitle="Starting servers"/>
+<topicref href="deploy/topics/tdepmod.dita" id="tdepmod" locktitle="yes"
+navtitle="Adding modules to servers"/>
+<topicref href="deploy/topics/tpublish.dita" id="tpublish" locktitle="yes"
+navtitle="Publishing modules to servers"/>
+<topicref href="deploy/topics/tpub.dita" id="tpub" locktitle="yes"
+navtitle="Publishing changed resources to a server"/>
+<topicref href="deploy/topics/tremove.dita" id="tremove" locktitle="yes"
+navtitle="Removing modules from servers"/>
+<topicref href="deploy/topics/trestart.dita" id="trestart" locktitle="yes"
+navtitle="Restarting servers"/>
+<topicref href="deploy/topics/tstop.dita" id="tstop" locktitle="yes" navtitle="Stopping servers"/>
+<topicref href="deploy/topics/tcrtprof.dita" id="tcrtprof" locktitle="yes"
+navtitle="Creating or resetting default server profiles"> </topicref>
+</topicref>
+<!--Removing "family" from topicref-->
+<topicref href="deploy/topics/tcrtservers.dita" id="tcrtservers"
+navtitle="Working with process application servers">
+<topicref href="deploy/topics/tcrtpc.dita" id="tcrtpc"
+navtitle="Creating an IBM Workflow Center server"/>
+<topicref href="deploy/topics/tcrtpsrvpc.dita" id="tcrtpsrvpc"
+navtitle="Creating an IBM Workflow Server on IBM Workflow Center"/>
+<topicref href="deploy/topics/tconnectpc.dita"
+navtitle="Connecting to an IBM Workflow Server on IBM Workflow Center"/>
+</topicref>
+<topicref href="deploy/topics/tdepviewstatus.dita" id="tdepviewstatus"
+locktitle="yes"
+navtitle="Viewing the state and status of modules or servers">
+</topicref><?Pub Caret -2?>
+</topicref>
+<reltable>
+<relrow>
+<relcell>
+<topicref format="dita" href="cdplyovw.dita" id="cdplyovw"
+locktitle="yes" navtitle="Deploying service modules" scope="peer"
+type="concept"></topicref>
+</relcell>
+<relcell>
+<topicref keyref="trenamemod"></topicref>
+</relcell>
+</relrow>
+<relrow>
+<relcell>
+<topicref href="topics/performance_tuning.dita"
+navtitle="Performance tuning"></topicref>
+</relcell>
+<relcell>
+<topicref format="html"
+href="http://www.ibm.com/developerworks/websphere/library/techarticles/1005_taylor/1005_taylor.html"
+navtitle="Using binary JAR files with Integration Developer and Workflow Server" scope="external"/>
+<topicref format="html"
+href="http://www.redbooks.ibm.com/abstracts/redp4664.html?Open"
+navtitle="WebSphere Business Process Management and WebSphere Enterprise Service Bus V7 Performance Tuning"
+scope="external"></topicref>
+</relcell>
+</relrow>
+</reltable>
+</map>
+<?Pub *0000006874?>
