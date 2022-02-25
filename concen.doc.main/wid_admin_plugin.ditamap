@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Arbortext, Inc., 1988-2011, v.4002-->
+<!DOCTYPE plugin PUBLIC "-//IBM//DTD DITA Eclipse Map Collection//EN"
+ "eclipsemap.dtd">
+<?Pub Sty _display FontColor="red"?>
+<plugin id="com.ibm.wbpm.wid.admin.doc" xml:lang="en-us">
+<pluginmeta>
+<providerName>IBM</providerName>
+<plugininfo><pluginname>Runtime documentation</pluginname>
+<vrmlist><vrm modification="700" release="5" version="8"/></vrmlist>
+</plugininfo>
+</pluginmeta>
+<primarytocref href="wid_admin_toc.ditamap"></primarytocref>
+<tocref href="qos_toc.ditamap" navtitle="QoS" scope="local"></tocref>
+<tocref href="qosref_toc.ditamap" navtitle="Qualifiers" scope="local">
+</tocref>
+<tocref href="teams_toc.ditamap" navtitle="Working in teams"
+scope="local"></tocref>
+<tocref href="build_toc.ditamap"></tocref>
+<tocref href="debug_toc.ditamap"></tocref>
+<tocref href="deploy_toc.ditamap"></tocref>
+<tocref href="edt_toc.ditamap"></tocref>
+<tocref href="test_toc.ditamap"></tocref>
+<!--<tocref href="xprod_repository_toc.ditamap" navtitle="Sharing assets"
+scope="local"></tocref>-->
+<!-- Key map containing keys for this plugin -->
+<?Pub Caret -2?>
+<tocref href="../shared/keys_maps/wid_admin_keys.ditamap" toc="no"></tocref>
+<!-- Key maps for other plugins which this plugin needs to link to -->
+<tocref href="../shared/keys_maps/xprod_admin_keys.ditamap" toc="no"></tocref>
+<tocref href="../shared/keys_maps/author_stp_keys.ditamap" toc="no"></tocref>
+<tocref href="../shared/keys_maps/wid_integ_keys.ditamap" toc="no"></tocref>
+<tocref href="../shared/keys_maps/wid_main_keys.ditamap" toc="no"></tocref>
+<tocref href="../shared/keys_maps/wle_editor_keys.ditamap" toc="no"></tocref>
+<tocref href="../shared/keys_maps/medprim.doc_keys.ditamap" toc="no"></tocref>
+</plugin>
+<?Pub *0000001649?>

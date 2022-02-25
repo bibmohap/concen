@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Arbortext, Inc., 1988-2011, v.4002-->
+<!DOCTYPE topic PUBLIC "-//IBM//DTD DITA IBM Topic//EN"
+ "ibm-topic.dtd">
+<?Pub Sty _display FontColor="red"?>
+<topic id="team" xml:lang="en-us" product="ebpm_flag">
+<title>Working in teams</title>
+<shortdesc>For teams to work effectively, the environment should be set up appropriately and team
+members should understand the characteristics of the software configuration management (SCM) and
+versioning systems that they are applying. </shortdesc>
+<body>
+<p>The easiest way to coordinate team development is to use the Process
+Center as your team repository. By associating your modules or libraries
+with a process application, you can easily share and manage artifacts
+that you publish to the Process Center repository. Versioning is handled
+for you through snapshots.</p>
+<p>If you are working with Integration Designer as a stand-alone product
+without <tm tmtype="reg" trademark="IBM">IBM</tm> Process Center,
+you must use a separate SCM system for versioning and source control.
+The topics in this section provide some guidance for working with
+SCM systems.</p>
+<p>For information about versioning modules and libraries in your
+Integration Designer development environment, see <xref keyref="tcrtvers">Creating
+versioned modules and libraries</xref>. </p><?Pub Caret 154?>
+</body>
+<?tm 1296590540 1?>
+</topic>
+<?Pub *0000001396?>

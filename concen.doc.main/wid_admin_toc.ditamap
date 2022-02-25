@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Arbortext, Inc., 1988-2009, v.4002-->
+<!DOCTYPE map PUBLIC "-//IBM//DTD DITA IBM Map//EN"
+ "ibm-map.dtd">
+<?Pub Sty _display FontColor="red"?>
+<map xml:lang="en-us"><title>Admin documentation</title>
+<!--removed topicref format="ditamap" href="teams_toc.ditamap" because this section appears as a peer to the admin container already - do not need to duplicate it in the admin container as well.-->
+<navref mapref="test_toc.ditamap"></navref>
+<navref mapref="runtime_toc.ditamap"></navref>
+<navref mapref="debug_toc.ditamap"></navref>
+</map>
+<?Pub *0000000790?>

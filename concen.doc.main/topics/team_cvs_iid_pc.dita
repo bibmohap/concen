@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Arbortext, Inc., 1988-2010, v.4002-->
+<!DOCTYPE task PUBLIC "-//IBM//DTD DITA IBM Task//EN"
+ "ibm-task.dtd">
+<?Pub Sty _display FontColor="red"?>
+<task id="team_cvs_iid_pc" xml:lang="en-us" product="ebpm_flag">
+<title>Using CVS with <keyword
+conref="../../shared/shared_variables/variables.dita#variables/key_wid"></keyword> and <keyword
+conref="../../shared/shared_variables/variables.dita#variables/key_pcenter"></keyword></title>
+<shortdesc>This topic shows you how to perform common tasks using <keyword
+conref="../../shared/shared_variables/variables.dita#variables/key_wid_long"></keyword> with <keyword
+conref="../../shared/shared_variables/variables.dita#variables/key_pcenter_long"></keyword
+> and a traditional software configuration management (SCM) system. </shortdesc>
+<prolog>
+<author>Dennis Bockus</author>
+<source>Grant Taylor</source>
+<metadata>
+<keywords><indexterm>cvs</indexterm><indexterm>scm</indexterm>
+<indexterm>configuration management</indexterm><keyword>cvs</keyword>
+<keyword>scm</keyword><keyword>configuration management</keyword>
+</keywords>
+</metadata></prolog>
+<taskbody>
+<prereq>As a best practice, it is recommended that you store the project content in the following way:<ul>
+<li>Store only the default projects and minimum artifacts required for collaboration in <keyword
+conref="../../shared/shared_variables/variables.dita#variables/key_pcenter"/>.
+<!--For more information, see <xref href="https://www.ibm.com/developerworks/websphere/bpmjournal/1106_taylor/1106_taylor.html" scope="external">Best practices when using IBM Integration Designer and IBM Process Designer together</xref>.--></li>
+<li>Store non-default projects separately in the SCM system, not in <keyword
+conref="../../shared/shared_variables/variables.dita#variables/key_pcenter"/>.
+<!--For more information, see <xref href="https://www.ibm.com/developerworks/websphere/bpmjournal/1106_taylor/1106_taylor.html" scope="external">Best practices when using IBM Integration Designer and IBM Process Designer together</xref>.--></li>
+<li>Store implementation content in the unshared and unmirrored library modules in the SCM
+system.<!-- For more information, see <xref href="https://www.ibm.com/developerworks/bpm/library/techarticles/1602_pacholski-trs/1602_pacholski.html" scope="external">Develop Advanced Integration services for IBM Business Process Manager V8.5.6</xref>.--></li>
+</ul>It is also recommended that you understand these and other best practices of sharing projects
+between <keyword conref="../../shared/shared_variables/variables.dita#variables/key_wid"/> and <keyword
+conref="../../shared/shared_variables/variables.dita#variables/key_pcenter"/> that are described in the following articles:<ul>
+<li><xref
+href="https://www.ibm.com/developerworks/websphere/bpmjournal/1106_taylor/1106_taylor.html"
+scope="external">Best practices when using IBM Integration Designer and IBM Process Designer
+together</xref>.</li>
+<li><xref
+href="https://www.ibm.com/developerworks/bpm/library/techarticles/1602_pacholski-trs/1602_pacholski.html"
+scope="external">Develop Advanced Integration services for IBM Business Process Manager
+V8.5.6</xref>.</li>
+</ul></prereq>
+<context><p>If you are using <keyword
+conref="../../shared/shared_variables/variables.dita#variables/key_wid"></keyword> with <keyword
+conref="../../shared/shared_variables/variables.dita#variables/key_pcenter"></keyword>, you
+are either storing your projects in <keyword
+conref="../../shared/shared_variables/variables.dita#variables/key_pcenter"></keyword> or
+storing them in both <keyword
+conref="../../shared/shared_variables/variables.dita#variables/key_pcenter"></keyword> and
+an SCM system. The latter case is likely to apply if you were working
+with earlier versions of WebSphere Integration Developer for several
+reasons: <ul>
+<li>The SCM contains a history that is important for maintaining code
+integrity.</li>
+<li>There are usually automated build scripts that run from the SCM.</li>
+<li>Corporate standards may require that you continue to use a specific
+SCM.</li>
+</ul>Working with two repositories introduces additional complexity
+to the governance system, but those can be addressed by careful planning.
+These instructions will help you manage that configuration successfully.</p
+><p>Although this topic addresses working with Concurrent Versions
+System (CVS), the principles also apply to other SCM systems. For
+more information about working with CVS or other SCM systems, see
+the related links at the end of this topic. You can access actions
+for source control management system clients that you have currently
+installed from the <keyword
+conref="../../shared/shared_variables/variables.dita#variables/key_wid"></keyword> Business
+Integration view by right clicking a project and opening the Team
+menu.</p><p>Eclipse only allows one SCM to be associated with a project.
+If you use <keyword conref="../../shared/shared_variables/variables.dita#variables/key_pcenter"
+></keyword> with another SCM system, treat <keyword
+conref="../../shared/shared_variables/variables.dita#variables/key_pcenter"></keyword> as
+a secondary repository. The SCM system is the primary storage area
+used by the developers as they work with their artifacts. Load projects
+to the <keyword conref="../../shared/shared_variables/variables.dita#variables/key_pcenter"
+></keyword> intermittently, perhaps at project milestones. Do not
+check projects out from <keyword
+conref="../../shared/shared_variables/variables.dita#variables/key_pcenter"></keyword> to
+make changes. </p><p>Because you work from CVS, artifacts such as
+business process definitions, which are solely associated with <keyword
+conref="../../shared/shared_variables/variables.dita#variables/key_pcenter"></keyword> will
+not exist in the CVS repository.</p></context><?Pub Caret -2?>
+<steps-unordered>
+<step><cmd>Add projects to both repositories.</cmd><info>A project
+that is under CVS control can be added to <keyword
+conref="../../shared/shared_variables/variables.dita#variables/key_pcenter"></keyword> by
+associating it with a process application or toolkit (see the related
+links for instructions). That association creates a bpm.repo.prefs
+file in the <keyword conref="../../shared/shared_variables/variables.dita#variables/key_wid"
+></keyword> .settings folder. That file contains the details about
+the association. <keyword
+conref="../../shared/shared_variables/variables.dita#variables/key_wid"></keyword> checks
+for this file when a when a project is brought into a workspace. If <keyword
+conref="../../shared/shared_variables/variables.dita#variables/key_wid"></keyword> finds
+that file, it will connect to the <keyword
+conref="../../shared/shared_variables/variables.dita#variables/key_pcenter"></keyword> repository
+and show the project as contained in the specified process application
+or toolkit. You can add a project to the repositories in either order,
+but if you associate the project with <keyword
+conref="../../shared/shared_variables/variables.dita#variables/key_pcenter"></keyword> last,
+synchronize the project with CVS immediately after association so
+that the bpm.repo.prefs file is visible if someone checks the file
+out of CVS. </info></step>
+<step><cmd>Remove projects from the <keyword
+conref="../../shared/shared_variables/variables.dita#variables/key_pcenter"></keyword> by <term
+>disassociating</term> them.</cmd><info>You need access authority
+on the <keyword conref="../../shared/shared_variables/variables.dita#variables/key_pcenter"
+></keyword> to perform this task.</info>
+<substeps>
+<substep><cmd>In the Business Integration view of <keyword
+conref="../../shared/shared_variables/variables.dita#variables/key_wid"></keyword>, right
+click the project and select <uicontrol>Disassociate from Process
+Center</uicontrol>.</cmd><info>Disassociation removes the project
+from the Process Center repository and deletes the bpm.repo.prefs
+file. The file will still exist in previous snapshots, so a disassociation
+can be reversed. </info></substep>
+<substep><cmd>Synchronize with CVS immediately so the disassociation
+is registered there before someone else checks out the file. </cmd>
+</substep>
+</substeps>
+</step>
+<step><cmd>Check out files only from CVS, using the CVS Import wizard
+or the CVS navigator.</cmd><info>Although <keyword
+conref="../../shared/shared_variables/variables.dita#variables/key_wid"></keyword> makes
+it easy to bring in projects from <keyword
+conref="../../shared/shared_variables/variables.dita#variables/key_pcenter"></keyword> using
+the pop-up menu, you should not do that for projects that reside
+in CVS. CVS metadata is stripped out when a project is shared with
+the <keyword conref="../../shared/shared_variables/variables.dita#variables/key_pcenter"
+></keyword> repository. If you pull projects from <keyword
+conref="../../shared/shared_variables/variables.dita#variables/key_pcenter"></keyword>, the
+files will not be connected to CVS. If you unintentionally make changes
+to files that you have accessed in this way, you need to publish them
+to <keyword conref="../../shared/shared_variables/variables.dita#variables/key_pcenter"></keyword
+> and have someone pull them into another workspace that still contains
+the CVS connection for the project. The revised project can then be
+committed to CVS from there. </info></step>
+<step><cmd>Before publishing projects to <keyword
+conref="../../shared/shared_variables/variables.dita#variables/key_pcenter"></keyword>, update
+from CVS to capture any changes that have been made by the team. Immediately
+after publishing, synchronize with CVS.</cmd><stepresult>Doing these
+two actions keeps CVS as the system of reference and avoids conflicts
+between the two repositories. </stepresult></step>
+<step><cmd>Create tracks in <keyword
+conref="../../shared/shared_variables/variables.dita#variables/key_pcenter"></keyword> before
+creating branches in CVS. Make the branch and track names similar
+so the relationship between them is easy to identify.</cmd>
+<substeps>
+<substep><cmd>In the Process Center perspective, select a process
+application. </cmd></substep>
+<substep><cmd>In the process application title bar, select <uicontrol
+>Manage</uicontrol>. Select <uicontrol>Allow users to create tracks
+in this process app</uicontrol>.</cmd></substep>
+<substep><cmd>Select <uicontrol>Snapshots</uicontrol> and then select
+an existing snapshot or create one. Click <uicontrol>New Track</uicontrol
+>: <image href="../images/new_snapshot.gif" placement="break"><alt
+>Screen capture showing the locations of the Snapshots and New Track
+controls. </alt></image></cmd><info>You need to create the track from
+a snapshot.</info></substep>
+<substep><cmd>In the Create New Track window, provide a name and description
+for the track. Click <uicontrol>Create</uicontrol>.</cmd><stepresult
+>Now that a track exists in <keyword
+conref="../../shared/shared_variables/variables.dita#variables/key_pcenter"></keyword>, you
+can create a corresponding branch in CVS.</stepresult></substep>
+<substep><cmd>Right-click a project in CVS and select <menucascade>
+<uicontrol>Team</uicontrol><uicontrol>Branch</uicontrol></menucascade
+>.</cmd></substep>
+<substep><cmd>In the <wintitle>Create a new CVS branch</wintitle> window,
+give the branch a name and version.</cmd></substep>
+<substep><cmd>At this point, the new CVS branch still points to the
+main track, not the new track. To complete the process, you need to
+replace the workspace content with the new track content. In the Business
+Integration view, right-click the project and select <menucascade>
+<uicontrol>Replace With</uicontrol><uicontrol>Latest from Tip of Track</uicontrol>
+</menucascade>.</cmd></substep>
+<substep><cmd>Select the new track and click <uicontrol>OK</uicontrol
+>.</cmd><stepresult>At this point, <keyword
+conref="../../shared/shared_variables/variables.dita#variables/key_wid"></keyword> edits
+the bpm.repo.prefs file to point to the new track. However, the projects
+must still be reassociated with the new CVS branch.</stepresult>
+</substep>
+<substep><cmd>In the Business Integration view, select <menucascade>
+<uicontrol>Team</uicontrol><uicontrol>Share Project</uicontrol>
+</menucascade>.</cmd></substep>
+<substep><cmd>In the Share Project window, select <uicontrol>Use an
+existing module</uicontrol> and select the module that you have associated
+with the process application. </cmd><stepresult>The program recognizes
+that there is now a branch for that module and provides a page where
+you can choose to synchronize with the branch instead of the HEAD
+stream.</stepresult></substep>
+<substep><cmd>Select the branch and click <uicontrol>Next</uicontrol
+>. If you do not see your branch, click <uicontrol>Refresh Tags</uicontrol
+>.</cmd></substep>
+<substep><cmd>Expand the module settings, right-click <uicontrol>bpm.repo.prefs</uicontrol
+>, and select <uicontrol>Mark as Merged</uicontrol>. Select<uicontrol
+> Launch the Commit wizard</uicontrol> and click <uicontrol>Next</uicontrol
+>.</cmd></substep>
+<substep><cmd>Right-click <uicontrol>bpm.repo.prefs</uicontrol>, and
+select <uicontrol>Commit</uicontrol>. Click <uicontrol>Finish</uicontrol
+>.</cmd></substep>
+</substeps>
+</step>
+<step><cmd>If a <keyword
+conref="../../shared/shared_variables/variables.dita#variables/key_pcenter"></keyword> machine
+URL changes, edit the bpm.repo.prefs file to reflect the change.</cmd>
+</step>
+<step><cmd>If a project in CVS is associated with a <keyword
+conref="../../shared/shared_variables/variables.dita#variables/key_pcenter"></keyword> that
+is no longer running, disassociate the project from the <keyword
+conref="../../shared/shared_variables/variables.dita#variables/key_pcenter"></keyword> server.
+Right-click the project in the Business Integration view. Select <uicontrol
+>Disassociate</uicontrol> and confirm the action.<!--Grant mentioned in his presentation that in some cases it might be better to use a facade in some cases and add only that module or library to the process application or toolkit. I will add a topic or a link to an article when more information is available. --></cmd>
+</step>
+</steps-unordered>
+</taskbody>
+</task>
+<?Pub *0000011302?>
