@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Arbortext, Inc., 1988-2011, v.4002-->
+<!DOCTYPE map PUBLIC "-//IBM//DTD DITA IBM Map//EN"
+ "ibm-map.dtd">
+<?Pub Sty _display FontColor="red"?>
+<map title="Troubleshooting" xml:lang="en-us">
+<topicref href="topics/ttrouble.dita" id="ttrouble" locktitle="yes"
+navtitle="Troubleshooting">
+<topicref href="topics/clicense_tracking.dita"
+navtitle="Track license usage"></topicref>
+<topicref href="topics/performance_tuning.dita"
+navtitle="Performance tuning"></topicref>
+<topicref href="topics/fixingcompileerrors.dita"
+navtitle="Fixing compilation errors in integration projects"></topicref>
+<topicref href="topics/resolvingconnectprobs.dita"
+navtitle="Resolving connection problems in Integration Designer">
+<topicref href="topics/tsetremote.dita" id="tsetremote" locktitle="yes"
+navtitle="Resolving communication problems with remote UTE servers">
+</topicref>
+<topicref href="topics/rcredentialspsprompt.dita"
+navtitle="Creation of a process application server causes a prompt for credentials">
+</topicref>
+<topicref href="topics/rldapaccountlock.dita"
+navtitle="LDAP account is locked out when Integration Developer is started after a password change">
+</topicref>
+<topicref href="topics/riidprompt.dita"
+navtitle="Integration Designer prompts for connection information whenever a process application is imported">
+</topicref>
+<topicref href="topics/rbrowserblank.dita"
+navtitle="Browser window is blank in Workflow Center perspective of Integration Designer">
+</topicref>
+</topicref>
+<topicref href="topics/crec_app_design_bestp.dita"
+navtitle="Error prevention as part of application design">
+<topicref href="topics/crec_moddesign.dita"
+navtitle="Connectivity groups"></topicref>
+<topicref href="topics/crec_appdesign.dita"
+navtitle="Application design considerations for exceptions and faults">
+<topicref href="topics/crec_sbexceptions.dita"
+navtitle="Service Business Exception handling "></topicref>
+<topicref href="topics/crec_srexceptions.dita"
+navtitle="Service Runtime Exception handling"></topicref>
+</topicref>
+</topicref>
+<!--Removing "family" from topicref-->
+<topicref href="topics/ttrace.dita" id="ttrace" locktitle="yes"
+navtitle="Using the Server Logs view for problem determination">
+<topicref href="topics/ctrceovr.dita" id="ctrceovr" locktitle="yes"
+navtitle="Overview of cross-component tracing"></topicref>
+<topicref href="topics/rseqview.dita" id="rseqview" locktitle="yes"
+navtitle="Server Logs view"></topicref>
+<topicref href="topics/tusetrce.dita" id="tusetrce" locktitle="yes"
+navtitle="Getting started"></topicref>
+<!--Removing "family" from topicref-->
+<topicref href="topics/tmnglogs.dita" id="tmnglogs" locktitle="yes"
+navtitle="Working with server console and log records">
+<topicref href="topics/tsetprefs.dita" id="tsetprefs" locktitle="yes"
+navtitle="Setting preferences"></topicref>
+<topicref href="topics/topenvw.dita" id="topenvw" locktitle="yes"
+navtitle="Opening the Server Logs view"></topicref>
+<topicref href="topics/tenable.dita" id="tenable" locktitle="yes"
+navtitle="Enabling or disabling cross-component tracing"></topicref>
+<topicref href="topics/tloadlog.dita" id="tloadlog" locktitle="yes"
+navtitle="Loading server console and log files"></topicref>
+<topicref href="topics/tpage.dita" id="tpage" locktitle="yes"
+navtitle="Paging through server console and log records"></topicref>
+<topicref href="topics/tfilter.dita" id="tfilter" locktitle="yes"
+navtitle="Filtering server console and log records"></topicref>
+<topicref href="topics/tsort.dita" id="tsort" locktitle="yes"
+navtitle="Sorting server console and log records"></topicref>
+<topicref href="topics/tsearch.dita" id="tsearch" locktitle="yes"
+navtitle="Searching server console and log records"></topicref>
+<topicref href="topics/tdspprop.dita" id="tdspprop" locktitle="yes"
+navtitle="Displaying server console and log record properties">
+</topicref>
+<topicref href="topics/treload.dita" id="treload" locktitle="yes"
+navtitle="Refreshing server console records"></topicref>
+<topicref href="topics/ttstclnt.dita" id="ttstclnt" locktitle="yes"
+navtitle="Loading invocation records into the test client"></topicref>
+</topicref>
+</topicref>
+<topicref href="topics/tdebug.dita" id="tdebug" locktitle="yes"
+navtitle="Using the integration debugger for problem determination">
+<topicref href="topics/ccover.dita" id="ccover"
+navtitle="Component debugging"></topicref>
+<!--Removing "family" from topicref-->
+<topicref href="topics/rdebugui.dita" id="rdebugui" locktitle="yes"
+navtitle="Integration debugger">
+<topicref href="topics/rcwebcl.dita" id="rcwebcl" locktitle="yes"
+navtitle="Integration test client"></topicref>
+<topicref href="topics/rceditor.dita" id="rceditor" locktitle="yes"
+navtitle="Component editors"></topicref>
+<topicref href="topics/rcbrkvw.dita" id="rcbrkvw" locktitle="yes"
+navtitle="Breakpoints view"></topicref>
+<topicref href="topics/rcdbgvw.dita" id="rcdbgvw" locktitle="yes"
+navtitle="Debug view"></topicref>
+<topicref href="topics/rcvarvw.dita" id="rcvarvw" locktitle="yes"
+navtitle="Variables view"></topicref>
+<topicref href="topics/rcicons.dita" id="rcicons" locktitle="yes"
+navtitle="Icons and symbols"></topicref>
+<topicref href="topics/rdebug_shortcuts.dita" id="rdebug_shortcuts"
+locktitle="yes" navtitle="Keyboard shortcuts"></topicref>
+</topicref>
+<topicref href="topics/ccbreak.dita" id="ccbreak" locktitle="yes"
+navtitle="Breakpoints"></topicref>
+<!--Removing "family" from topicref-->
+<topicref href="topics/tsetpref.dita" id="tsetpref" locktitle="yes"
+navtitle="Changing preferences">
+<topicref href="topics/tdsblhot.dita" id="tdsblhot" locktitle="yes"
+navtitle="Disabling warnings about hot code replacement"></topicref>
+<topicref href="topics/tdsblref.dita" id="tdsblref" locktitle="yes"
+navtitle="Disabling warnings about refactoring"></topicref>
+<topicref href="topics/tdsblsyn.dita" id="tdsblsyn" locktitle="yes"
+navtitle="Disabling warnings about server synchronization"></topicref>
+<topicref href="topics/tdsbldbg.dita" id="tdsbldbg" locktitle="yes"
+navtitle="Disabling warnings about components that cannot currently be debugged">
+</topicref>
+<topicref href="topics/tenbprmp.dita" id="tenbprmp" locktitle="yes"
+navtitle="Enabling prompting when duplicate files are encountered">
+</topicref>
+<topicref href="topics/tinvalid.dita" id="tinvalid" locktitle="yes"
+navtitle="Specifying how invalid breakpoints should be handled">
+</topicref>
+<topicref href="topics/tshowvar.dita" id="tshowvar"
+navtitle="Enabling all variables to be displayed" print="yes">
+</topicref>
+<topicref href="topics/ttrcelog.dita" id="ttrcelog" locktitle="yes"
+navtitle="Enabling debug trace logging"></topicref>
+<topicref href="topics/tenabledebugger.dita" id="tenabledebugger"
+locktitle="yes" navtitle="Enabling or disabling the integration debugger">
+</topicref>
+<topicref href="topics/tdebuggertracing.dita" id="tdebuggertracing"
+locktitle="yes"
+navtitle="Enabling or disabling debugger tracing on servers"></topicref>
+<topicref href="topics/tchgjava.dita" id="tchgjava" locktitle="yes"
+navtitle="Changing Java breakpoint query timeout values"></topicref>
+<topicref href="topics/tdbgsys.dita" id="tdbgsys" locktitle="yes"
+navtitle="Specifying regular debugging or problem determination debugging">
+</topicref>
+<topicref href="topics/tenbthrd.dita" id="tenbthrd" locktitle="yes"
+navtitle="Changing thread filters "></topicref>
+<topicref href="topics/tchgtime.dita" id="tchgtime" locktitle="yes"
+navtitle="Changing timeout values"></topicref>
+</topicref>
+<topicref href="topics/tremote.dita" id="tremote" locktitle="yes"
+navtitle="Preparing for remote debugging"></topicref>
+<topicref href="topics/tcstproc.dita" id="tcstproc" locktitle="yes"
+navtitle="Creating a component instance"></topicref>
+<!--Removing "family" from topicref-->
+<topicref href="topics/tmngbrk.dita" id="tmngbrk" locktitle="yes"
+navtitle="Managing breakpoints">
+<topicref href="topics/tcadbrk.dita" id="tcadbrk" locktitle="yes"
+navtitle="Adding breakpoints"></topicref>
+<topicref href="topics/tcdsbrk.dita" id="tcdsbrk" locktitle="yes"
+navtitle="Disabling breakpoints"></topicref>
+<topicref href="topics/tcenbrk.dita" id="tcenbrk" locktitle="yes"
+navtitle="Enabling breakpoints"></topicref>
+<topicref href="topics/tcrmbrk.dita" id="tcrmbrk" locktitle="yes"
+navtitle="Removing breakpoints"></topicref>
+<topicref href="topics/tchitbrk.dita" id="tchitbrk" locktitle="yes"
+navtitle="Applying hit counts to breakpoints"></topicref>
+<topicref href="topics/tcstrict.dita" id="tcstrict" locktitle="yes"
+navtitle="Restricting breakpoints to specific process threads">
+</topicref>
+</topicref>
+<!--Removing "family" from topicref-->
+<topicref href="topics/tstepcom.dita" id="tstepcom" locktitle="yes"
+navtitle="Stepping through component instances">
+<topicref href="topics/tcresum.dita" id="tcresum" locktitle="yes"
+navtitle="Resuming component thread execution"></topicref>
+<topicref href="topics/tcstpinc.dita" id="tcstpinc" locktitle="yes"
+navtitle="Stepping into component elements"></topicref>
+<topicref href="topics/tcstpovn.dita" id="tcstpovn" locktitle="yes"
+navtitle="Stepping over component elements"></topicref>
+<topicref href="topics/tcstoutc.dita" id="tcstoutc" locktitle="yes"
+navtitle="Stepping out of component elements"></topicref>
+<topicref href="topics/tsuspend.dita" id="tsuspend" locktitle="yes"
+navtitle="Suspending component thread execution"></topicref>
+<topicref href="topics/tcterm.dita" id="tcterm" locktitle="yes"
+navtitle="Terminating component instance execution"></topicref>
+<topicref href="topics/trunto.dita" id="trunto" locktitle="yes"
+navtitle="Running to a transformation"></topicref>
+</topicref>
+<!--Removing "family" from topicref-->
+<topicref href="topics/tmngvar.dita" id="tmngvar" locktitle="yes"
+navtitle="Managing variables and messages">
+<topicref href="topics/tshwstrc.dita" id="tshwstrc" locktitle="yes"
+navtitle="Showing variable type logical structures"></topicref>
+<topicref href="topics/tcshwtyp.dita" id="tcshwtyp" locktitle="yes"
+navtitle="Showing variable or message type names"></topicref>
+<topicref href="topics/tcindat.dita" id="tcindat" locktitle="yes"
+navtitle="Changing variable or message values"></topicref>
+<topicref href="topics/tevalexp.dita" id="tevalexp"
+navtitle="Evaluating expressions"></topicref>
+</topicref>
+<topicref href="topics/rcprobs.dita" id="rcprobs" locktitle="yes"
+navtitle="Limitations"></topicref>
+</topicref>
+<!--Removing "family" from topicref-->
+<!--<topicref href="topics/tusepdtools.dita" id="tusepdtools" locktitle="yes"
+navtitle="Using WebSphere Integration Developer for WebSphere Business Modeler problem determination">
+<topicref href="topics/covervw.dita" id="covervw" locktitle="yes"
+navtitle="Overview"></topicref>
+<topicref href="topics/timport.dita" id="timport" locktitle="yes"
+navtitle="Importing a WebSphere Business Modeler problem determination archive">
+</topicref>
+<topicref href="topics/topenprj.dita" id="topenprj" locktitle="yes"
+navtitle="Loading project interchange resources"></topicref>
+<topicref href="topics/trerun.dita" id="trerun" locktitle="yes"
+navtitle="Viewing or rerunning test traces"></topicref>
+<topicref href="topics/tpdslview.dita" id="tpdslview" locktitle="yes"
+navtitle="Analyzing server console and log records"></topicref>
+<topicref href="topics/tvwprobs.dita" id="tvwprobs" locktitle="yes"
+navtitle="Viewing serviceDeploy build problems"></topicref>
+<topicref href="topics/tvieweclipse.dita" id="tvieweclipse"
+locktitle="yes" navtitle="Viewing Eclipse workspace logs"></topicref>
+<topicref href="topics/tviewmodeler.dita" id="tviewmodeler"
+locktitle="yes"
+navtitle="Viewing WebSphere Business Modeler workspace logs"></topicref>
+<topicref href="topics/tvwmodel.dita" id="tvwmodel" locktitle="yes"
+navtitle="Viewing business process models"></topicref>
+</topicref>-->
+</topicref>
+<reltable>
+<relrow>
+<relcell>
+<topicref href="topics/performance_tuning.dita"
+navtitle="Performance tuning"></topicref>
+</relcell>
+<relcell>
+<topicref format="html"
+href="http://www.ibm.com/developerworks/websphere/library/techarticles/1005_taylor/1005_taylor.html"
+navtitle="Using binary JAR files with Integration Developer and Workflow Server"
+scope="external"></topicref>
+</relcell>
+</relrow>
+<relrow>
+<relcell>
+<topicref href="topics/tloadlog.dita"></topicref>
+</relcell>
+<relcell>
+<topicref keyref="tpage"></topicref><?Pub Caret -1?>
+</relcell>
+</relrow>
+<relrow>
+<relcell>
+<topicref href="topics/tpage.dita"></topicref>
+</relcell>
+<relcell>
+<topicref keyref="tloadlog"></topicref>
+</relcell>
+</relrow>
+</reltable>
+</map>
+<?Pub *0000012584?>
